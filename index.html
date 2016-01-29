@@ -1,108 +1,108 @@
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="./stylesheets/base.css"/>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+        <link rel = "stylesheet" type = "text/css" href = "./stylesheets/base.css"/>
+        <link rel = "stylesheet" href = "https://fonts.googleapis.com/icon?family=Material+Icons"/>
       
         </script>
     </head>
     <body>
-        <div id="mobile_screen">
-            <div id="app_header">
-                <div id="app_logo">
-                    <i class="material-icons">
-                        menu
-                    </i>
+        <div id = "mobile_screen">
+        <header>
+            <div id = "app_header">
+                <div id = "app_logo">
+                    <i class = "material-icons">menu</i>
                 </div>
-                <div id="app_name">
-             <img src="./images/logo.png">
+                <div id = "app_name">
+             		<img src = "./images/logo.png">
                 </div>
-                <div id="app_articles">
-                    <div id="content_1">
+                <div id = "app_articles">
+                    <div id = "content_1">
                         9
                     </div>
-                    <div id="content_2">
+                    <div id = "content_2">
                         NEW ARTICLES
                     </div>
                 </div>
             </div>
-            <nav id="drawer">
+            </header>
+            <nav id = "drawer">
                 <ul>
                     <li>
-                        <a href="#">
+                        <a href = "#">
                             HOME
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href = "#">
                             LONG FORMS
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href = "#">
                             REVIEWS
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href = "#">
                             VIDEO
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href = "#">
                             TECH
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href = "#">
                             SCIENCE
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href = "#">
                             ENTERTAINMENT
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href = "#">
                             CARS
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href = "#">
                             DESIGN
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href = "#">
                             US & WORLD
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href = "#">
                             FORUM
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href = "#">
                             SEARCH
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href = "#">
                             MORE OPTIONS
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href = "#">
                             SEARCH
                         </a>
                     </li>
                 </ul>
             </nav>
-            <nav id="drawer_articles">
+            <nav id = "drawer_articles">
                 <ul>
                     <li>
-                        <div class="article_body">
+                        <div class = "article_body">
                             <p>
                                 Clamping down on VPNs will turn Netflix subscribers into pirates
                             </p>
@@ -110,30 +110,42 @@
                     </li>
                 </ul>
             </nav>
-            <div id="app_body">
-          <!--  <div class="body_content">
-           </div> -->
+            <div id = "app_body">
+           <div class = "body_content"  id = "first">
+           </div>
+           <div class = "body_content"  id = "second">
+           </div>
+           <div class = "body_content"  id = "last">
+           </div>
+           <div id="slider">
+<figure>
+<img src="http://demosthenes.info/assets/images/austin-fireworks.jpg" alt="">
+<img src="http://demosthenes.info/assets/images/taj-mahal.jpg" alt="">
+<img src="http://demosthenes.info/assets/images/ankor-wat.jpg" alt="">
+<img src="http://demosthenes.info/assets/images/austin-fireworks.jpg" alt="">
+</figure>
+</div>
             </div>
-            <div id="app_footer">
-                <div class="app_Btn">
-                    <i class="material-icons">
+            <div id = "app_footer">
+                <div class = "app_Btn">
+                    <i class = "material-icons">
                         home
                     </i>
                 </div>
-                <div class="app_Btn">
-                    <i class="material-icons">
+                <div class = "app_Btn">
+                    <i class = "material-icons">
                         apps
                     </i>
                 </div>
-                <div class="app_Btn">
-                    <i class="material-icons">
+                <div class = "app_Btn">
+                    <i class = "material-icons">
                         arrow_back
                     </i>
                 </div>
             </div>
         </div>
     </div>
-    <script type="text/javascript">
+    <script type = "text/javascript">
         document.getElementById('app_logo').addEventListener('click',drawer, false);
         function  drawer(){
         document.getElementById('drawer').classList.toggle('drawer_left');
