@@ -1,0 +1,61 @@
+ body {
+     margin: 0;
+     background-color: $white;
+     font-size: 12px;
+     font-family: Arial Narrow;
+ }
+ 
+ #mobile_screen {
+     width: 100%;
+     margin: 0 auto;
+     position: relative;
+     background-color: $white;
+     overflow: hidden;
+ }
+ 
+ #app_header {
+     height: 40px;
+     padding: 5px;
+     z-index: 3;
+     background-color: $header-color;
+ }
+ 
+ #app_body {
+     overflow: auto;
+     color: $black;
+ }
+ 
+ #app_footer {
+     border-top: 1px solid #CCC;
+     height: 33px;
+     z-index: 3;
+     bottom: 0;
+ }
+ 
+ .app_Btn {
+     height: 100%;
+     text-align: center;
+     display: inline-block;
+     box-sizing: border-box;
+     padding: 5px 8px;
+     width: 32.2%;
+     cursor: pointer;
+     cursor: hand;
+ }
+ 
+ .body_content {
+     height: 200px;
+     margin: 0;
+     padding: 0;
+     position: relative;
+ }
+ 
+ .body_content::after {
+     content: '';
+     position: absolute;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     top: 0;
+     opacity: 0.7;
+ }

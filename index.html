@@ -1,32 +1,103 @@
+<!DOCTYPE html>
 <html>
     <head>
-        <link rel = "stylesheet" type = "text/css" href = "./stylesheets/base.css"/>
-        <link rel = "stylesheet" href = "https://fonts.googleapis.com/icon?family=Material+Icons"/>
-      
+        <title>
+            The Verge
+        </title>
+        <link rel = "stylesheet" type = "text/css" href = "./stylesheets/style.css"/>
+        <script src="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js">
         </script>
+        <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.indigo-pink.min.css"/>
+        <!-- Material Design icon font -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
     </head>
     <body>
         <div id = "mobile_screen">
-        <header>
-            <div id = "app_header">
-                <div id = "app_logo">
-                    <i class = "material-icons">menu</i>
-                </div>
-                <div id = "app_name">
-             		<img src = "./images/logo.png">
-                </div>
-                <div id = "app_articles">
-                    <div id = "content_1">
-                        9
+            <header>
+                <div id = "app_header">
+                    <div id = "app_logo">
+                        <button id="demo-menu-lower-left"
+                            class="mdl-button mdl-js-button mdl-button--icon">
+                            <i class="material-icons">
+                                menu
+                            </i>
+                        </button>
+                        <!--
+                            <ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect"
+                                for="demo-menu-lower-left">
+                                <li class="mdl-menu__item">
+                                    LOGIN | SIGNUP
+                                </li>
+                                <li class="mdl-menu__item">
+                                    HOME
+                                </li>
+                                <li class="mdl-menu__item">
+                                    LONG FORMS
+                                </li>
+                                <li class="mdl-menu__item">
+                                    REVIEWS
+                                </li>
+                                <li class="mdl-menu__item">
+                                    VIDEO
+                                </li>
+                                <li class="mdl-menu__item">
+                                    TECH
+                                </li>
+                                <li class="mdl-menu__item">
+                                    SCIENCE
+                                </li>
+                                <li class="mdl-menu__item">
+                                    ENTERTAINMENT
+                                </li>
+                                <li class="mdl-menu__item">
+                                    CARS
+                                </li>
+                                <li class="mdl-menu__item">
+                                    DESIGN
+                                </li>
+                                <li class="mdl-menu__item">
+                                    US & WORLD
+                                </li>
+                                <li class="mdl-menu__item">
+                                    FORUM
+                                </li>
+                                <li class="mdl-menu__item">
+                                    SEARCH
+                                </li
+                                <li class="mdl-menu__item">
+                                    MORE OPTIONS
+                                </li
+                                <li class="mdl-menu__item">
+                                    SEARCH
+                                </li
+                            </ul>
+                        -->
                     </div>
-                    <div id = "content_2">
-                        NEW ARTICLES
+                    <div id = "app_name">
+                        <img src = "./images/logo.png"/>
+                    </div>
+                    <div id = "app_articles">
+                        <div id = "content_1">
+                            9
+                        </div>
+                        <div id = "content_2">
+                            NEW ARTICLES
+                        </div>
                     </div>
                 </div>
-            </div>
             </header>
             <nav id = "drawer">
                 <ul>
+                    <li id="login">
+                        <div class="login_item">
+                            <img src="/home/geethu/Desktop/user.gif"/>
+                        </div>
+                        <div class="login_item">
+                            <a href = "#">
+                                LOGIN | SIGNUP
+                            </a>
+                        </div>
+                    </li>
                     <li>
                         <a href = "#">
                             HOME
@@ -92,40 +163,101 @@
                             MORE OPTIONS
                         </a>
                     </li>
-                    <li>
-                        <a href = "#">
-                            SEARCH
-                        </a>
-                    </li>
                 </ul>
             </nav>
             <nav id = "drawer_articles">
-                <ul>
-                    <li>
-                        <div class = "article_body">
+                <div class = "top-news-of-day">
+                    <div class="news_date">
+                FEBRUARY 01, 2016
+                    </div>
+                    <div class="news_wrapper">
+                        <div class="news_time">
+                            4.55 am
+                        </div>
+                        <div class="news_content"
                             <p>
-                                Clamping down on VPNs will turn Netflix subscribers into pirates
+                                Nokia continues to profit from smartphone legacy with Samsung patent deal
                             </p>
                         </div>
-                    </li>
-                </ul>
+                    </div>
+                    <div class="news_wrapper">
+                        <div class="news_time">
+                            1.07 am
+                        </div>
+                        <div class="news_content"
+                            <p>
+                                Airmail for iOS is here: the email app that can do everything
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                 <div class = "top-news-of-day">
+                    <div class="news_date">
+                        JANUARY 31, 2016
+                    </div>
+                    <div class="news_wrapper">
+                        <div class="news_time">
+                            9.50 pm
+                        </div>
+                        <div class="news_content"
+                            <p>
+                            FCC Allows Further Testing of LTE Service in Unlicensed Spectrum Used by Wi-Fi
+                            </p>
+                        </div>
+                    </div>
+                    <div class="news_wrapper">
+                        <div class="news_time">
+                            7.21 pm
+                        </div>
+                        <div class="news_content"
+                            <p>
+                            Samsung's Galaxy S7 event is happening in three weeks
+                            </p>
+                        </div>
+                    </div>
+                    <div class="news_wrapper">
+                        <div class="news_time">
+                            6.59 pm
+                        </div>
+                        <div class="news_content"
+                            <p>
+                          Samsung's Android browser gets ad blocking capabilities
+                            </p>
+                        </div>
+                    </div>
+                    <div class="news_wrapper">
+                        <div class="news_time">
+                            5.52 pm
+                        </div>
+                        <div class="news_content"
+                            <p>
+                           Screenshots offer first look at Google Chrome updated for Material Design
+                            </p>
+                        </div>
+                    </div>
+                   
+                </div>
             </nav>
             <div id = "app_body">
-           <div class = "body_content"  id = "first">
-           </div>
-           <div class = "body_content"  id = "second">
-           </div>
-           <div class = "body_content"  id = "last">
-           </div>
-           <div id="slider">
-<figure>
-<img src="http://demosthenes.info/assets/images/austin-fireworks.jpg" alt="">
-<img src="http://demosthenes.info/assets/images/taj-mahal.jpg" alt="">
-<img src="http://demosthenes.info/assets/images/ankor-wat.jpg" alt="">
-<img src="http://demosthenes.info/assets/images/austin-fireworks.jpg" alt="">
-</figure>
-</div>
+                <div class = "body_content"  id = "first">
+                </div>
+                <div class = "body_content"  id = "second">
+                </div>
+                <div class = "body_content"  id = "last">
+                </div>
             </div>
+            <!--
+                <div id="slider">
+                    <figure>
+                        <img src="http://demosthenes.info/assets/images/austin-fireworks.jpg" alt=""/>
+                        <img src="http://demosthenes.info/assets/images/taj-mahal.jpg" alt=""/>
+                        <img src="http://demosthenes.info/assets/images/ankor-wat.jpg" alt=""/>
+                        <img src="http://demosthenes.info/assets/images/austin-fireworks.jpg" alt=""/>
+                    </figure>
+                </div>
+            </div>
+        -->
+        <footer>
             <div id = "app_footer">
                 <div class = "app_Btn">
                     <i class = "material-icons">
@@ -143,7 +275,7 @@
                     </i>
                 </div>
             </div>
-        </div>
+        </footer>
     </div>
     <script type = "text/javascript">
         document.getElementById('app_logo').addEventListener('click',drawer, false);
