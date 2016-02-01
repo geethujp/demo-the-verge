@@ -60,7 +60,7 @@ i.material-icons {
 }
 
 .login_item {
-    padding: 10px;
+    padding: 5px;
     height: 30px;
     float: left;
     color: $white;
@@ -69,7 +69,23 @@ i.material-icons {
 .login_item img {
     height: 30px;
 }
+#contact_us
+{
 
+        background-color: $black;
+    height: 50px;
+    bottom: 0px;
+    top:0;
+    width: 100%;
+}
+.contact_icon
+{
+  padding: 10px;
+ color: $white;
+ float: left;
+ width: 15%;
+ font-size: 20px;
+}
 #drawer {
     position: absolute;
     top: 50px;
@@ -77,11 +93,11 @@ i.material-icons {
     width: 200px;
     background: $grey;
     overflow-x: hidden;
-    overflow-y: auto;
-    bottom: 34px;
+    overflow-y: hidden;
+    bottom: 0px;
     transition: 1s;
     left: -250px;
-    z-index: 2;
+    z-index: 4;
     border-right: 2px solid $orange;
 }
 
@@ -121,16 +137,16 @@ margin: 0px;
     top: 50px;
     padding-top: 50px;
     height: auto;
-    width: 200px;
+    width: 250px;
     background: white;
     overflow-x: hidden;
-    overflow-y: auto;
-    bottom: 34px;
+overflow-y: hidden;
+    bottom: 0px;
     /*background:*/
     transition: 1s;
     right: -250px;
-    z-index: 2;
-    border-left: 2px solid$header-color;
+    z-index: 4;
+    border-left: 2px solid $header-color;
 }
 
 #drawer_articles.drawer_right {

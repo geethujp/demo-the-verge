@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.indigo-pink.min.css"/>
         <!-- Material Design icon font -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
     </head>
     <body>
         <div id = "mobile_screen">
@@ -163,12 +164,32 @@
                             MORE OPTIONS
                         </a>
                     </li>
+                    <li>
+                        <div id="contact_us">
+                            <div class="contact_icon">
+                                <i class="fa fa-facebook">
+                                </i>
+                            </div>
+                            <div class="contact_icon">
+                                <i class="fa fa-twitter">
+                                </i>
+                            </div>
+                            <div class="contact_icon">
+                                <i class="fa fa-youtube-play">
+                                </i>
+                            </div>
+                            <div class="contact_icon">
+                                <i class="fa fa-rss">
+                                </i>
+                            </div>
+                        </div>
+                    </li>
                 </ul>
             </nav>
             <nav id = "drawer_articles">
                 <div class = "top-news-of-day">
                     <div class="news_date">
-                FEBRUARY 01, 2016
+                        FEBRUARY 01, 2016
                     </div>
                     <div class="news_wrapper">
                         <div class="news_time">
@@ -191,7 +212,7 @@
                         </div>
                     </div>
                 </div>
-                 <div class = "top-news-of-day">
+                <div class = "top-news-of-day">
                     <div class="news_date">
                         JANUARY 31, 2016
                     </div>
@@ -201,7 +222,7 @@
                         </div>
                         <div class="news_content"
                             <p>
-                            FCC Allows Further Testing of LTE Service in Unlicensed Spectrum Used by Wi-Fi
+                                FCC Allows Further Testing of LTE Service in Unlicensed Spectrum Used by Wi-Fi
                             </p>
                         </div>
                     </div>
@@ -211,7 +232,7 @@
                         </div>
                         <div class="news_content"
                             <p>
-                            Samsung's Galaxy S7 event is happening in three weeks
+                                Samsung's Galaxy S7 event is happening in three weeks
                             </p>
                         </div>
                     </div>
@@ -221,7 +242,7 @@
                         </div>
                         <div class="news_content"
                             <p>
-                          Samsung's Android browser gets ad blocking capabilities
+                                Samsung's Android browser gets ad blocking capabilities
                             </p>
                         </div>
                     </div>
@@ -231,61 +252,85 @@
                         </div>
                         <div class="news_content"
                             <p>
-                           Screenshots offer first look at Google Chrome updated for Material Design
+                                Screenshots offer first look at Google Chrome updated for Material Design
                             </p>
                         </div>
                     </div>
-                   
                 </div>
             </nav>
             <div id = "app_body">
                 <div class = "body_content"  id = "first">
+                    <div class="body_text">
+                        <h4 class="content_title">
+                            Airmail for iOS is here: the email app that can do everything
+                        </h4>
+                        <h6 class="content_author">
+                            By Jacob Kastrenakes
+                        </h6>
+                    </div>
                 </div>
                 <div class = "body_content"  id = "second">
+                    <div class="body_text">
+                        <h4 class="content_title">
+                            Hannibal Buress could rescue Spotify's boring new 'radio' series
+                        </h4>
+                        <h6 class="content_author">
+                            By Lizzie Plaugic
+                        </h6>
+                    </div>
                 </div>
                 <div class = "body_content"  id = "last">
+                    <div class="body_text">
+                        <h4 class="content_title">
+                            Everything coming to Netflix and Amazon Prime in February (and what to watch before it's gone)
+                        </h4>
+                        <h6 class="content_author">
+                            By Bryan Bishop
+                        </h6>
+                    </div>
                 </div>
             </div>
-            <!--
-                <div id="slider">
-                    <figure>
-                        <img src="http://demosthenes.info/assets/images/austin-fireworks.jpg" alt=""/>
-                        <img src="http://demosthenes.info/assets/images/taj-mahal.jpg" alt=""/>
-                        <img src="http://demosthenes.info/assets/images/ankor-wat.jpg" alt=""/>
-                        <img src="http://demosthenes.info/assets/images/austin-fireworks.jpg" alt=""/>
-                    </figure>
-                </div>
+        </div>
+        <!--
+            <div id="slider">
+                <figure>
+                    <img src="http://demosthenes.info/assets/images/austin-fireworks.jpg" alt=""/>
+                    <img src="http://demosthenes.info/assets/images/taj-mahal.jpg" alt=""/>
+                    <img src="http://demosthenes.info/assets/images/ankor-wat.jpg" alt=""/>
+                    <img src="http://demosthenes.info/assets/images/austin-fireworks.jpg" alt=""/>
+                </figure>
             </div>
-        -->
-        <footer>
-            <div id = "app_footer">
-                <div class = "app_Btn">
-                    <i class = "material-icons">
-                        home
-                    </i>
-                </div>
-                <div class = "app_Btn">
-                    <i class = "material-icons">
-                        apps
-                    </i>
-                </div>
-                <div class = "app_Btn">
-                    <i class = "material-icons">
-                        arrow_back
-                    </i>
-                </div>
+        </div>
+    -->
+    <footer>
+        <div id = "app_footer">
+            <div class = "app_Btn">
+                <i class = "material-icons">
+                    home
+                </i>
             </div>
-        </footer>
-    </div>
-    <script type = "text/javascript">
-        document.getElementById('app_logo').addEventListener('click',drawer, false);
-        function  drawer(){
-        document.getElementById('drawer').classList.toggle('drawer_left');
-        }
-        document.getElementById('app_articles').addEventListener('click',drawer_articles, false);
-        function  drawer_articles(){
-        document.getElementById('drawer_articles').classList.toggle('drawer_right');
-        }
-    </script>
+            <div class = "app_Btn">
+                <i class = "material-icons">
+                    apps
+                </i>
+            </div>
+            <div class = "app_Btn">
+                <i class = "material-icons">
+                    arrow_back
+                </i>
+            </div>
+        </div>
+    </footer>
+</div>
+<script type = "text/javascript">
+    document.getElementById('app_logo').addEventListener('click',drawer, false);
+    function  drawer(){
+    document.getElementById('drawer').classList.toggle('drawer_left');
+    }
+    document.getElementById('app_articles').addEventListener('click',drawer_articles, false);
+    function  drawer_articles(){
+    document.getElementById('drawer_articles').classList.toggle('drawer_right');
+    }
+</script>
 </body>
 </html>

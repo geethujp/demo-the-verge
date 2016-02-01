@@ -1,3 +1,4 @@
+
  body {
      margin: 0;
      background-color: $white;
@@ -48,8 +49,9 @@
      margin: 0;
      padding: 0;
      position: relative;
+
  }
- 
+
  .body_content::after {
      content: '';
      position: absolute;
@@ -58,4 +60,31 @@
      bottom: 0;
      top: 0;
      opacity: 0.7;
+
  }
+.body_text
+{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    color: $white;
+    z-index: 3;
+    
+    padding: 20px;
+}
+.content_title
+{
+ 
+  text-align: left;
+  margin: 0;
+  font-family: Adelle;
+
+    line-height: 1.2em;
+}
+.content_author
+{
+  font-size: 12px
+}
+

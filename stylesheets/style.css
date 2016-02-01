@@ -1,4 +1,4 @@
-/* line 1, ../_sass/_common.scss */
+/* line 2, ../_sass/_common.scss */
 body {
   margin: 0;
   background-color: #fff;
@@ -6,7 +6,7 @@ body {
   font-family: Arial Narrow;
 }
 
-/* line 8, ../_sass/_common.scss */
+/* line 9, ../_sass/_common.scss */
 #mobile_screen {
   width: 100%;
   margin: 0 auto;
@@ -15,7 +15,7 @@ body {
   overflow: hidden;
 }
 
-/* line 16, ../_sass/_common.scss */
+/* line 17, ../_sass/_common.scss */
 #app_header {
   height: 40px;
   padding: 5px;
@@ -23,13 +23,13 @@ body {
   background-color: #fa4b2a;
 }
 
-/* line 23, ../_sass/_common.scss */
+/* line 24, ../_sass/_common.scss */
 #app_body {
   overflow: auto;
   color: #000;
 }
 
-/* line 28, ../_sass/_common.scss */
+/* line 29, ../_sass/_common.scss */
 #app_footer {
   border-top: 1px solid #CCC;
   height: 33px;
@@ -37,7 +37,7 @@ body {
   bottom: 0;
 }
 
-/* line 35, ../_sass/_common.scss */
+/* line 36, ../_sass/_common.scss */
 .app_Btn {
   height: 100%;
   text-align: center;
@@ -49,7 +49,7 @@ body {
   cursor: hand;
 }
 
-/* line 46, ../_sass/_common.scss */
+/* line 47, ../_sass/_common.scss */
 .body_content {
   height: 200px;
   margin: 0;
@@ -57,7 +57,7 @@ body {
   position: relative;
 }
 
-/* line 53, ../_sass/_common.scss */
+/* line 55, ../_sass/_common.scss */
 .body_content::after {
   content: '';
   position: absolute;
@@ -66,6 +66,31 @@ body {
   bottom: 0;
   top: 0;
   opacity: 0.7;
+}
+
+/* line 65, ../_sass/_common.scss */
+.body_text {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  color: #fff;
+  z-index: 3;
+  padding: 20px;
+}
+
+/* line 77, ../_sass/_common.scss */
+.content_title {
+  text-align: left;
+  margin: 0;
+  font-family: Adelle;
+  line-height: 1.2em;
+}
+
+/* line 86, ../_sass/_common.scss */
+.content_author {
+  font-size: 12px;
 }
 
 /* line 3, ../sass/style.scss */
@@ -139,7 +164,7 @@ i.material-icons {
 
 /* line 62, ../sass/style.scss */
 .login_item {
-  padding: 10px;
+  padding: 5px;
   height: 30px;
   float: left;
   color: #fff;
@@ -150,7 +175,25 @@ i.material-icons {
   height: 30px;
 }
 
-/* line 73, ../sass/style.scss */
+/* line 72, ../sass/style.scss */
+#contact_us {
+  background-color: #000;
+  height: 50px;
+  bottom: 0px;
+  top: 0;
+  width: 100%;
+}
+
+/* line 81, ../sass/style.scss */
+.contact_icon {
+  padding: 10px;
+  color: #fff;
+  float: left;
+  width: 15%;
+  font-size: 20px;
+}
+
+/* line 89, ../sass/style.scss */
 #drawer {
   position: absolute;
   top: 50px;
@@ -158,34 +201,34 @@ i.material-icons {
   width: 200px;
   background: #222;
   overflow-x: hidden;
-  overflow-y: auto;
-  bottom: 34px;
+  overflow-y: hidden;
+  bottom: 0px;
   transition: 1s;
   left: -250px;
-  z-index: 2;
+  z-index: 4;
   border-right: 2px solid #dc4225;
 }
 
-/* line 88, ../sass/style.scss */
+/* line 104, ../sass/style.scss */
 #drawer.drawer_left {
   transition: 1s;
   left: 0px;
 }
 
-/* line 93, ../sass/style.scss */
+/* line 109, ../sass/style.scss */
 #drawer ul {
   list-style: none;
   padding: 0;
   margin: 0px;
 }
 
-/* line 100, ../sass/style.scss */
+/* line 116, ../sass/style.scss */
 #drawer li {
   border-bottom: 0.1px solid #2f2f2f;
   border-width: thin;
 }
 
-/* line 105, ../sass/style.scss */
+/* line 121, ../sass/style.scss */
 #drawer li a {
   display: block;
   color: white;
@@ -195,44 +238,44 @@ i.material-icons {
   margin: 5px;
 }
 
-/* line 114, ../sass/style.scss */
+/* line 130, ../sass/style.scss */
 #drawer li a:hover {
   background-color: white;
   color: #2f2f2f;
 }
 
-/* line 119, ../sass/style.scss */
+/* line 135, ../sass/style.scss */
 #drawer_articles {
   position: absolute;
   top: 50px;
   padding-top: 50px;
   height: auto;
-  width: 200px;
+  width: 250px;
   background: white;
   overflow-x: hidden;
-  overflow-y: auto;
-  bottom: 34px;
+  overflow-y: hidden;
+  bottom: 0px;
   /*background:*/
   transition: 1s;
   right: -250px;
-  z-index: 2;
+  z-index: 4;
   border-left: 2px solid #fa4b2a;
 }
 
-/* line 136, ../sass/style.scss */
+/* line 152, ../sass/style.scss */
 #drawer_articles.drawer_right {
   transition: 1s;
   right: 0px;
 }
 
-/* line 141, ../sass/style.scss */
+/* line 157, ../sass/style.scss */
 #drawer_articles ul {
   list-style: none;
   padding: 0;
   border-bottom: 2px solid #fff;
 }
 
-/* line 147, ../sass/style.scss */
+/* line 163, ../sass/style.scss */
 #drawer_articles li a {
   display: block;
   color: #000;
@@ -242,63 +285,63 @@ i.material-icons {
   margin: 5px;
 }
 
-/* line 156, ../sass/style.scss */
+/* line 172, ../sass/style.scss */
 #drawer_articles li {
   margin: 0;
   width: 100%;
   border-bottom: 2px solid #222;
 }
 
-/* line 162, ../sass/style.scss */
+/* line 178, ../sass/style.scss */
 #drawer_articles {
   padding-top: 10px;
 }
 
-/* line 166, ../sass/style.scss */
+/* line 182, ../sass/style.scss */
 #drawer_articles li a:hover {
   background-color: white;
   color: #2f2f2f;
 }
 
-/* line 171, ../sass/style.scss */
+/* line 187, ../sass/style.scss */
 #first {
   background: url("../images/dam.jpg");
   background-size: 100% 100%;
 }
 
-/* line 176, ../sass/style.scss */
+/* line 192, ../sass/style.scss */
 #first::after {
   background: linear-gradient(135deg, #dc4225, #292484);
 }
 
-/* line 180, ../sass/style.scss */
+/* line 196, ../sass/style.scss */
 #second {
   background: url("../images/iphone.jpg");
   background-size: 100% 100%;
 }
 
-/* line 185, ../sass/style.scss */
+/* line 201, ../sass/style.scss */
 #second::after {
   background: linear-gradient(135deg, #002f4b, #417711);
 }
 
-/* line 189, ../sass/style.scss */
+/* line 205, ../sass/style.scss */
 #last {
   background: url("../images/people.jpg");
   background-size: 100% 100%;
 }
 
-/* line 194, ../sass/style.scss */
+/* line 210, ../sass/style.scss */
 #last::after {
   background: linear-gradient(135deg, #D38312, #002f4b);
 }
 
-/* line 198, ../sass/style.scss */
+/* line 214, ../sass/style.scss */
 .top-news-of-day {
   padding: 10px;
 }
 
-/* line 202, ../sass/style.scss */
+/* line 218, ../sass/style.scss */
 .news_date {
   background-color: #fa4b2a;
   color: #fff;
@@ -307,12 +350,12 @@ i.material-icons {
   font-size: 11px;
 }
 
-/* line 215, ../sass/style.scss */
+/* line 231, ../sass/style.scss */
 .news_time {
   font-size: 10px;
 }
 
-/* line 219, ../sass/style.scss */
+/* line 235, ../sass/style.scss */
 .news_content {
   font-family: Adelle, Georgia, serif;
   font-size: 15px;
