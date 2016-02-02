@@ -30,11 +30,12 @@ i.material-icons {
 }
 
 #app_articles {
-    width: 25%;
+    width: 24%;
     float: left;
     color: white;
     cursor: pointer;
     text-align: center;
+    border-left: 1px solid $white;
 }
 
 #content_1 {
@@ -235,4 +236,104 @@ font-size: 11px;
 .news_content {
     font-family: Adelle, Georgia, serif;
     font-size: 15px;
+}
+.scroll_item
+{
+    display: inline-block;
+    width: 85%;
+   height: 100%;
+   position: relative;
+}
+#box_s-1{
+
+     background: url('../images/man.jpg');
+    background-size: cover;
+      background-position: center;
+}
+#box_s-1::after{
+  background: linear-gradient(135deg, $violet, $blue);  
+}
+
+#box_s-2{
+    background: url('../images/fb.jpg');
+    background-size: cover;
+      background-position: center;
+}
+#box_s-2::after{
+
+ background: linear-gradient(135deg, $green, $ochre);
+}
+
+#box_s-3{
+
+     background: url('../images/lap.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#box_s-3::after{
+      background: linear-gradient(135deg, $orange, $violet); 
+}
+
+#box_s-4{
+
+    background: url('../images/girls.jpg');
+  background-position: center;
+    background-size: cover;
+}
+#box_s-4::after{
+        background: linear-gradient(135deg, $ochre, $orange);
+
+}
+#list-wrap
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.list-item
+{
+padding: 10px;
+border-bottom: 1px solid $border;
+}
+
+.list-item-content
+{
+display: table-cell;
+margin-top: 0;
+padding-top: 0;
+ vertical-align: top;
+}
+.list-item-content img
+{
+
+    height: 75px;
+    width:75px; 
+    margin-right: 10px;
+}
+.content_1
+{
+ margin-right: 20px;
+ line-height: 1.2;
+ font-family: Adelle,Georgia,serif;
+ font-size: 15px;
+ text-align: left;
+
+
+}
+.content_2
+{
+   
+    font-size: 9px;
+}
+#back-to-top
+{
+    background-color: $medium-grey;
+    color: $black;
+}
+#text_for_up
+{
+    padding: 10px;
+    font-size: 15px;
+    font-family:Helvetica,Arial,sans-serif;
+    text-align: center;
 }
