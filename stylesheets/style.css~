@@ -1,0 +1,623 @@
+/* line 2, ../_sass/_common.scss */
+body {
+  margin: 0;
+  background-color: #fff;
+  font-size: 12px;
+  font-family: Arial Narrow;
+}
+
+/* line 9, ../_sass/_common.scss */
+#mobile_screen {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+/* line 17, ../_sass/_common.scss */
+#app_header {
+  height: 40px;
+  padding: 5px;
+  z-index: 3;
+  background-color: #fa4b2a;
+}
+
+/* line 24, ../_sass/_common.scss */
+#app_body {
+  overflow: auto;
+  color: #000;
+}
+
+/* line 29, ../_sass/_common.scss */
+#app_footer {
+  border-top: 1px solid #CCC;
+  height: 33px;
+  z-index: 3;
+  bottom: 0;
+}
+
+/* line 36, ../_sass/_common.scss */
+.app_Btn {
+  height: 100%;
+  text-align: center;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 5px 8px;
+  width: 32.2%;
+  cursor: pointer;
+  cursor: hand;
+}
+
+/* line 47, ../_sass/_common.scss */
+.body_content {
+  height: 200px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+/* line 55, ../_sass/_common.scss */
+.body_content::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  opacity: 0.7;
+}
+
+/* line 65, ../_sass/_common.scss */
+.body_text {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  color: #fff;
+  z-index: 3;
+  padding: 20px;
+}
+
+/* line 77, ../_sass/_common.scss */
+.content_title {
+  text-align: left;
+  margin: 0;
+  font-family: Adelle;
+  line-height: 1.2em;
+}
+
+/* line 86, ../_sass/_common.scss */
+.content_author {
+  font-size: 12px;
+}
+
+
+/* line 90, ../_sass/_common.scss */
+#scroll-wrap {
+  height: 200px;
+  width: 100%;
+  overflow-x: scroll;
+  white-space: nowrap;
+  font-size: 0;
+  overflow-y: hidden;
+}
+
+
+/* line 3, ../sass/style.scss */
+#app_logo {
+  width: 15%;
+  height: 20px;
+  padding: 5px 0px;
+  cursor: pointer;
+  text-align: left;
+  float: left;
+}
+
+/* line 12, ../sass/style.scss */
+i.material-icons {
+  color: white;
+  font-size: 25px;
+}
+
+/* line 17, ../sass/style.scss */
+#app_name {
+  width: 60%;
+  height: 30px;
+  font-size: 20px;
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+  float: left;
+  padding: 5px 0px;
+  text-align: center;
+}
+
+/* line 28, ../sass/style.scss */
+#app_name img {
+  height: 30px;
+}
+
+/* line 32, ../sass/style.scss */
+#app_articles {
+
+  width: 24%;
+
+  width: 25%;
+ float: left;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+
+  border-left: 1px solid #fff;
+}
+
+/* line 41, ../sass/style.scss */
+
+}
+
+/* line 40, ../sass/style.scss */
+
+#content_1 {
+  font-size: 20px;
+}
+
+<<<<<<< HEAD
+/* line 45, ../sass/style.scss */
+=======
+/* line 44, ../sass/style.scss */
+>>>>>>> gh-pages
+#content_2 {
+  font-size: 9.5px;
+}
+
+<<<<<<< HEAD
+/* line 49, ../sass/style.scss */
+=======
+/* line 48, ../sass/style.scss */
+>>>>>>> gh-pages
+.app_Btn i.material-icons {
+  color: #fa4b2a;
+}
+
+<<<<<<< HEAD
+/* line 53, ../sass/style.scss */
+=======
+/* line 52, ../sass/style.scss */
+>>>>>>> gh-pages
+.app_Btn:hover {
+  background-color: #2f2f2f;
+}
+
+<<<<<<< HEAD
+/* line 57, ../sass/style.scss */
+=======
+/* line 56, ../sass/style.scss */
+>>>>>>> gh-pages
+#login {
+  background-color: #000;
+  height: 50px;
+  top: 0px;
+}
+
+<<<<<<< HEAD
+/* line 63, ../sass/style.scss */
+=======
+/* line 62, ../sass/style.scss */
+>>>>>>> gh-pages
+.login_item {
+  padding: 5px;
+  height: 30px;
+  float: left;
+  color: #fff;
+}
+
+<<<<<<< HEAD
+/* line 70, ../sass/style.scss */
+=======
+/* line 69, ../sass/style.scss */
+>>>>>>> gh-pages
+.login_item img {
+  height: 30px;
+}
+
+<<<<<<< HEAD
+/* line 73, ../sass/style.scss */
+=======
+/* line 72, ../sass/style.scss */
+>>>>>>> gh-pages
+#contact_us {
+  background-color: #000;
+  height: 50px;
+  bottom: 0px;
+  top: 0;
+  width: 100%;
+}
+
+<<<<<<< HEAD
+/* line 82, ../sass/style.scss */
+=======
+/* line 81, ../sass/style.scss */
+>>>>>>> gh-pages
+.contact_icon {
+  padding: 10px;
+  color: #fff;
+  float: left;
+  width: 15%;
+  font-size: 20px;
+}
+
+<<<<<<< HEAD
+/* line 90, ../sass/style.scss */
+=======
+/* line 89, ../sass/style.scss */
+>>>>>>> gh-pages
+#drawer {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 200px;
+  background: #222;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  bottom: 0px;
+  transition: 1s;
+  left: -250px;
+  z-index: 4;
+  border-right: 2px solid #dc4225;
+}
+
+<<<<<<< HEAD
+/* line 105, ../sass/style.scss */
+=======
+/* line 104, ../sass/style.scss */
+>>>>>>> gh-pages
+#drawer.drawer_left {
+  transition: 1s;
+  left: 0px;
+}
+
+<<<<<<< HEAD
+/* line 110, ../sass/style.scss */
+=======
+/* line 109, ../sass/style.scss */
+>>>>>>> gh-pages
+#drawer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0px;
+}
+
+<<<<<<< HEAD
+/* line 117, ../sass/style.scss */
+=======
+/* line 116, ../sass/style.scss */
+>>>>>>> gh-pages
+#drawer li {
+  border-bottom: 0.1px solid #2f2f2f;
+  border-width: thin;
+}
+
+<<<<<<< HEAD
+/* line 122, ../sass/style.scss */
+=======
+/* line 121, ../sass/style.scss */
+>>>>>>> gh-pages
+#drawer li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  text-align: left;
+  padding: 2px;
+  margin: 5px;
+}
+
+<<<<<<< HEAD
+/* line 131, ../sass/style.scss */
+=======
+/* line 130, ../sass/style.scss */
+>>>>>>> gh-pages
+#drawer li a:hover {
+  background-color: white;
+  color: #2f2f2f;
+}
+
+<<<<<<< HEAD
+/* line 136, ../sass/style.scss */
+=======
+/* line 135, ../sass/style.scss */
+>>>>>>> gh-pages
+#drawer_articles {
+  position: absolute;
+  top: 50px;
+  padding-top: 50px;
+  height: auto;
+  width: 250px;
+  background: white;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  bottom: 0px;
+  /*background:*/
+  transition: 1s;
+  right: -250px;
+  z-index: 4;
+  border-left: 2px solid #fa4b2a;
+}
+
+<<<<<<< HEAD
+/* line 153, ../sass/style.scss */
+=======
+/* line 152, ../sass/style.scss */
+>>>>>>> gh-pages
+#drawer_articles.drawer_right {
+  transition: 1s;
+  right: 0px;
+}
+
+<<<<<<< HEAD
+/* line 158, ../sass/style.scss */
+=======
+/* line 157, ../sass/style.scss */
+>>>>>>> gh-pages
+#drawer_articles ul {
+  list-style: none;
+  padding: 0;
+  border-bottom: 2px solid #fff;
+}
+
+<<<<<<< HEAD
+/* line 164, ../sass/style.scss */
+=======
+/* line 163, ../sass/style.scss */
+>>>>>>> gh-pages
+#drawer_articles li a {
+  display: block;
+  color: #000;
+  text-decoration: none;
+  text-align: left;
+  padding: 8px;
+  margin: 5px;
+}
+
+<<<<<<< HEAD
+/* line 173, ../sass/style.scss */
+=======
+/* line 172, ../sass/style.scss */
+>>>>>>> gh-pages
+#drawer_articles li {
+  margin: 0;
+  width: 100%;
+  border-bottom: 2px solid #222;
+}
+
+<<<<<<< HEAD
+/* line 179, ../sass/style.scss */
+=======
+/* line 178, ../sass/style.scss */
+>>>>>>> gh-pages
+#drawer_articles {
+  padding-top: 10px;
+}
+
+<<<<<<< HEAD
+/* line 183, ../sass/style.scss */
+=======
+/* line 182, ../sass/style.scss */
+>>>>>>> gh-pages
+#drawer_articles li a:hover {
+  background-color: white;
+  color: #2f2f2f;
+}
+
+<<<<<<< HEAD
+/* line 188, ../sass/style.scss */
+=======
+/* line 187, ../sass/style.scss */
+>>>>>>> gh-pages
+#first {
+  background: url("../images/dam.jpg");
+  background-size: 100% 100%;
+}
+
+<<<<<<< HEAD
+/* line 193, ../sass/style.scss */
+=======
+/* line 192, ../sass/style.scss */
+>>>>>>> gh-pages
+#first::after {
+  background: linear-gradient(135deg, #dc4225, #292484);
+}
+
+<<<<<<< HEAD
+/* line 197, ../sass/style.scss */
+=======
+/* line 196, ../sass/style.scss */
+>>>>>>> gh-pages
+#second {
+  background: url("../images/iphone.jpg");
+  background-size: 100% 100%;
+}
+
+<<<<<<< HEAD
+/* line 202, ../sass/style.scss */
+=======
+/* line 201, ../sass/style.scss */
+>>>>>>> gh-pages
+#second::after {
+  background: linear-gradient(135deg, #002f4b, #417711);
+}
+
+<<<<<<< HEAD
+/* line 206, ../sass/style.scss */
+=======
+/* line 205, ../sass/style.scss */
+>>>>>>> gh-pages
+#last {
+  background: url("../images/people.jpg");
+  background-size: 100% 100%;
+}
+
+<<<<<<< HEAD
+/* line 211, ../sass/style.scss */
+=======
+/* line 210, ../sass/style.scss */
+>>>>>>> gh-pages
+#last::after {
+  background: linear-gradient(135deg, #D38312, #002f4b);
+}
+
+<<<<<<< HEAD
+/* line 215, ../sass/style.scss */
+=======
+/* line 214, ../sass/style.scss */
+>>>>>>> gh-pages
+.top-news-of-day {
+  padding: 10px;
+}
+
+<<<<<<< HEAD
+/* line 219, ../sass/style.scss */
+=======
+/* line 218, ../sass/style.scss */
+>>>>>>> gh-pages
+.news_date {
+  background-color: #fa4b2a;
+  color: #fff;
+  font-family: Arial Narrow;
+  width: 115px;
+  font-size: 11px;
+}
+
+<<<<<<< HEAD
+/* line 232, ../sass/style.scss */
+=======
+/* line 231, ../sass/style.scss */
+>>>>>>> gh-pages
+.news_time {
+  font-size: 10px;
+}
+
+<<<<<<< HEAD
+/* line 236, ../sass/style.scss */
+=======
+/* line 235, ../sass/style.scss */
+>>>>>>> gh-pages
+.news_content {
+  font-family: Adelle, Georgia, serif;
+  font-size: 15px;
+}
+<<<<<<< HEAD
+
+/* line 240, ../sass/style.scss */
+.scroll_item {
+  display: inline-block;
+  width: 85%;
+  height: 100%;
+  position: relative;
+}
+
+/* line 247, ../sass/style.scss */
+#box_s-1 {
+  background: url("../images/man.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+/* line 253, ../sass/style.scss */
+#box_s-1::after {
+  background: linear-gradient(135deg, #292484, #002f4b);
+}
+
+/* line 257, ../sass/style.scss */
+#box_s-2 {
+  background: url("../images/fb.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+/* line 262, ../sass/style.scss */
+#box_s-2::after {
+  background: linear-gradient(135deg, #417711, #D38312);
+}
+
+/* line 267, ../sass/style.scss */
+#box_s-3 {
+  background: url("../images/lap.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+/* line 273, ../sass/style.scss */
+#box_s-3::after {
+  background: linear-gradient(135deg, #dc4225, #292484);
+}
+
+/* line 277, ../sass/style.scss */
+#box_s-4 {
+  background: url("../images/girls.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+/* line 283, ../sass/style.scss */
+#box_s-4::after {
+  background: linear-gradient(135deg, #D38312, #dc4225);
+}
+
+/* line 287, ../sass/style.scss */
+#list-wrap {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 293, ../sass/style.scss */
+.list-item {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* line 299, ../sass/style.scss */
+.list-item-content {
+  display: table-cell;
+  margin-top: 0;
+  padding-top: 0;
+  vertical-align: top;
+}
+
+/* line 306, ../sass/style.scss */
+.list-item-content img {
+  height: 75px;
+  width: 75px;
+  margin-right: 10px;
+}
+
+/* line 313, ../sass/style.scss */
+.content_1 {
+  margin-right: 20px;
+  line-height: 1.2;
+  font-family: Adelle,Georgia,serif;
+  font-size: 15px;
+  text-align: left;
+}
+
+/* line 323, ../sass/style.scss */
+.content_2 {
+  font-size: 9px;
+}
+
+/* line 328, ../sass/style.scss */
+#back-to-top {
+  background-color: #555;
+  color: #000;
+}
+
+/* line 333, ../sass/style.scss */
+#text_for_up {
+  padding: 10px;
+  font-size: 15px;
+  font-family: Helvetica,Arial,sans-serif;
+  text-align: center;
+}
+=======
+>>>>>>> gh-pages
