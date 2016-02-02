@@ -1,0 +1,362 @@
+/* line 2, ../_sass/_common.scss */
+body {
+  margin: 0;
+  background-color: #fff;
+  font-size: 12px;
+  font-family: Arial Narrow;
+}
+
+/* line 9, ../_sass/_common.scss */
+#mobile_screen {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+/* line 17, ../_sass/_common.scss */
+#app_header {
+  height: 40px;
+  padding: 5px;
+  z-index: 3;
+  background-color: #fa4b2a;
+}
+
+/* line 24, ../_sass/_common.scss */
+#app_body {
+  overflow: auto;
+  color: #000;
+}
+
+/* line 29, ../_sass/_common.scss */
+#app_footer {
+  border-top: 1px solid #CCC;
+  height: 33px;
+  z-index: 3;
+  bottom: 0;
+}
+
+/* line 36, ../_sass/_common.scss */
+.app_Btn {
+  height: 100%;
+  text-align: center;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 5px 8px;
+  width: 32.2%;
+  cursor: pointer;
+  cursor: hand;
+}
+
+/* line 47, ../_sass/_common.scss */
+.body_content {
+  height: 200px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+/* line 55, ../_sass/_common.scss */
+.body_content::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  opacity: 0.7;
+}
+
+/* line 65, ../_sass/_common.scss */
+.body_text {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  color: #fff;
+  z-index: 3;
+  padding: 20px;
+}
+
+/* line 77, ../_sass/_common.scss */
+.content_title {
+  text-align: left;
+  margin: 0;
+  font-family: Adelle;
+  line-height: 1.2em;
+}
+
+/* line 86, ../_sass/_common.scss */
+.content_author {
+  font-size: 12px;
+}
+
+/* line 3, ../sass/style.scss */
+#app_logo {
+  width: 15%;
+  height: 20px;
+  padding: 5px 0px;
+  cursor: pointer;
+  text-align: left;
+  float: left;
+}
+
+/* line 12, ../sass/style.scss */
+i.material-icons {
+  color: white;
+  font-size: 25px;
+}
+
+/* line 17, ../sass/style.scss */
+#app_name {
+  width: 60%;
+  height: 30px;
+  font-size: 20px;
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+  float: left;
+  padding: 5px 0px;
+  text-align: center;
+}
+
+/* line 28, ../sass/style.scss */
+#app_name img {
+  height: 30px;
+}
+
+/* line 32, ../sass/style.scss */
+#app_articles {
+  width: 25%;
+  float: left;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+}
+
+/* line 40, ../sass/style.scss */
+#content_1 {
+  font-size: 20px;
+}
+
+/* line 44, ../sass/style.scss */
+#content_2 {
+  font-size: 9.5px;
+}
+
+/* line 48, ../sass/style.scss */
+.app_Btn i.material-icons {
+  color: #fa4b2a;
+}
+
+/* line 52, ../sass/style.scss */
+.app_Btn:hover {
+  background-color: #2f2f2f;
+}
+
+/* line 56, ../sass/style.scss */
+#login {
+  background-color: #000;
+  height: 50px;
+  top: 0px;
+}
+
+/* line 62, ../sass/style.scss */
+.login_item {
+  padding: 5px;
+  height: 30px;
+  float: left;
+  color: #fff;
+}
+
+/* line 69, ../sass/style.scss */
+.login_item img {
+  height: 30px;
+}
+
+/* line 72, ../sass/style.scss */
+#contact_us {
+  background-color: #000;
+  height: 50px;
+  bottom: 0px;
+  top: 0;
+  width: 100%;
+}
+
+/* line 81, ../sass/style.scss */
+.contact_icon {
+  padding: 10px;
+  color: #fff;
+  float: left;
+  width: 15%;
+  font-size: 20px;
+}
+
+/* line 89, ../sass/style.scss */
+#drawer {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 200px;
+  background: #222;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  bottom: 0px;
+  transition: 1s;
+  left: -250px;
+  z-index: 4;
+  border-right: 2px solid #dc4225;
+}
+
+/* line 104, ../sass/style.scss */
+#drawer.drawer_left {
+  transition: 1s;
+  left: 0px;
+}
+
+/* line 109, ../sass/style.scss */
+#drawer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0px;
+}
+
+/* line 116, ../sass/style.scss */
+#drawer li {
+  border-bottom: 0.1px solid #2f2f2f;
+  border-width: thin;
+}
+
+/* line 121, ../sass/style.scss */
+#drawer li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  text-align: left;
+  padding: 2px;
+  margin: 5px;
+}
+
+/* line 130, ../sass/style.scss */
+#drawer li a:hover {
+  background-color: white;
+  color: #2f2f2f;
+}
+
+/* line 135, ../sass/style.scss */
+#drawer_articles {
+  position: absolute;
+  top: 50px;
+  padding-top: 50px;
+  height: auto;
+  width: 250px;
+  background: white;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  bottom: 0px;
+  /*background:*/
+  transition: 1s;
+  right: -250px;
+  z-index: 4;
+  border-left: 2px solid #fa4b2a;
+}
+
+/* line 152, ../sass/style.scss */
+#drawer_articles.drawer_right {
+  transition: 1s;
+  right: 0px;
+}
+
+/* line 157, ../sass/style.scss */
+#drawer_articles ul {
+  list-style: none;
+  padding: 0;
+  border-bottom: 2px solid #fff;
+}
+
+/* line 163, ../sass/style.scss */
+#drawer_articles li a {
+  display: block;
+  color: #000;
+  text-decoration: none;
+  text-align: left;
+  padding: 8px;
+  margin: 5px;
+}
+
+/* line 172, ../sass/style.scss */
+#drawer_articles li {
+  margin: 0;
+  width: 100%;
+  border-bottom: 2px solid #222;
+}
+
+/* line 178, ../sass/style.scss */
+#drawer_articles {
+  padding-top: 10px;
+}
+
+/* line 182, ../sass/style.scss */
+#drawer_articles li a:hover {
+  background-color: white;
+  color: #2f2f2f;
+}
+
+/* line 187, ../sass/style.scss */
+#first {
+  background: url("../images/dam.jpg");
+  background-size: 100% 100%;
+}
+
+/* line 192, ../sass/style.scss */
+#first::after {
+  background: linear-gradient(135deg, #dc4225, #292484);
+}
+
+/* line 196, ../sass/style.scss */
+#second {
+  background: url("../images/iphone.jpg");
+  background-size: 100% 100%;
+}
+
+/* line 201, ../sass/style.scss */
+#second::after {
+  background: linear-gradient(135deg, #002f4b, #417711);
+}
+
+/* line 205, ../sass/style.scss */
+#last {
+  background: url("../images/people.jpg");
+  background-size: 100% 100%;
+}
+
+/* line 210, ../sass/style.scss */
+#last::after {
+  background: linear-gradient(135deg, #D38312, #002f4b);
+}
+
+/* line 214, ../sass/style.scss */
+.top-news-of-day {
+  padding: 10px;
+}
+
+/* line 218, ../sass/style.scss */
+.news_date {
+  background-color: #fa4b2a;
+  color: #fff;
+  font-family: Arial Narrow;
+  width: 115px;
+  font-size: 11px;
+}
+
+/* line 231, ../sass/style.scss */
+.news_time {
+  font-size: 10px;
+}
+
+/* line 235, ../sass/style.scss */
+.news_content {
+  font-family: Adelle, Georgia, serif;
+  font-size: 15px;
+}
