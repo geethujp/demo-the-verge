@@ -69,7 +69,7 @@ padding-left:5px;
 }
 
 .login_item {
-    padding: 5px;
+    padding: 10px;
     height: 30px;
     float: left;
     color: $white;
@@ -97,7 +97,7 @@ padding-left:5px;
 }
 #drawer {
     position: absolute;
-    top: 50px;
+    top: 0px;
  
     width: 200px;
     background: $grey;
@@ -143,9 +143,8 @@ margin: 0px;
 
 #drawer_articles {
     position: absolute;
-    top: 50px;
-    padding-top: 50px;
-    height: auto;
+    top:0px;
+      height: auto;
     width: 250px;
     background: white;
     overflow-x: hidden;
@@ -182,9 +181,7 @@ overflow-y: hidden;
     border-bottom: 2px solid $grey;
 }
 
-#drawer_articles {
-    padding-top: 10px;
-}
+
 
 #drawer_articles li a:hover {
     background-color: white;
@@ -336,7 +333,7 @@ padding-top: 0;
 #back-to-top
 {
     background-color: $medium-grey;
-    color: $black;
+
 }
 #text_for_up
 {
@@ -350,10 +347,23 @@ padding-top: 0;
 {
   
  text-decoration: none;
-    color: $color;
+    color: $white;
         transition: opacity 0.1s ease-out;
 cursor:pointer;
 }
+#textbox
+{
+padding: 20px;
+}
 
-
+#textarea
+{
+      background: #FFF;
+    padding: 1rem;
+    width: 90%;
+    color: #444;
+    font-size: 15px;
+    text-align: center;
+        font-family: Adelle,Georgia,serif;
+}
 

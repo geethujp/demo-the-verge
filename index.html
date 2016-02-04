@@ -5,15 +5,14 @@
             The Verge
         </title>
         <link rel = "stylesheet" type = "text/css" href = "./stylesheets/style.css"/>
-        <script type="text/javascript" src="./javascripts/jquery-2.2.0.min.js">
+        <script type="text/javascript" src="./lib/jquery-2.2.0.min.js">
         </script>
-        <script type="text/javascript" src="./javascripts/script.js">
+       
+        <script src="./lib/material.min.js">
         </script>
-        <script src="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js">
-        </script>
-        <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.indigo-pink.min.css"/>
+        <link rel="stylesheet" href="./lib/material.indigo-pink.min.css"/>
         <!-- Material Design icon font -->
-        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+        <link rel="stylesheet" href="./lib/icon.css"/>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
     </head>
     <body>
@@ -435,25 +434,64 @@
     -->
     <footer>
         <div id = "app_footer">
-            <div class = "app_Btn">
-                <i class = "material-icons">
-                    home
-                </i>
-            </div>
-            <div class = "app_Btn">
-                <i class = "material-icons">
-                    apps
-                </i>
-            </div>
-            <div class = "app_Btn">
-                <i class = "material-icons">
-                    arrow_back
-                </i>
-            </div>
+        	<div id="textbox">
+        		<input type="text" id="textarea" placeholder="Search articles & products">
+        	</div>
+
+        	<div id="list_wrapper">
+        		<div class="footer_list">
+        			<div class ="list_content">
+        			<ul>
+       					<li>Longform</li>
+						<li>Video</li>
+        				<li>Reviews</li>
+        				<li>Tech</li>
+        				<li>Science</li>
+        				<li>Culture</li>
+        				<li>Cars</li>
+        				<li>Design</li>
+        				<li>Business</li>
+        				<li>US & World</li>
+        			</ul>
+        			</div>
+        		</div>
+
+                <div class="footer_list">
+        			<div class ="list_content">
+        			<ul>
+						<li>Site Status</li>
+        				<li>Contact</li>
+        				<li>Tip Us</li>
+        				<li>Forums</li>
+        				<li>Jobs</li>
+					</ul>
+        			</div>
+        		</div>	
+        	</div>
+        	<div id="social_media_contact">
+        	<ul id="social_list">                       
+        	<li class="social_icon"><i class="fa fa-facebook"></i></li>
+        	<li class="social_icon"><i class="fa fa-twitter"></i></li>
+        	<li class="social_icon"><i class="fa fa-youtube-play"></i></li>
+        	<li class="social_icon"><i class="fa fa-rss"></i></li>
+        	<li class="social_icon"><i class="fa fa-instagram"></i></li>
+        	<li class="social_icon"><i class="fa fa-tumblr"></i></li>
+        	</ul>
+        	</div>
+        	<div id="vox_media">
+
+        	</div>
+        	<div id="footer_text">
+        	 <p>&copy; 2016 <a href="http://www.voxmedia.com">Vox Media</a>, Inc. All rights reserved.</p>
+     </div>
         </div>
     </footer>
+
 </div>
-<script type = "text/javascript">
+        
+
+
+ <script type = "text/javascript">
     document.getElementById('app_logo').addEventListener('click',drawer, false);
     function  drawer(){
     document.getElementById('drawer').classList.toggle('drawer_left');
@@ -463,5 +501,7 @@
     document.getElementById('drawer_articles').classList.toggle('drawer_right');
     }
 </script>
+ <script type="text/javascript" src="./javascripts/script.js">
+        </script>
 </body>
 </html>
