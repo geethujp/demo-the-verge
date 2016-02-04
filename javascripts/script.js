@@ -21,16 +21,5 @@ $(document).ready(function() {
         $('#drawer').hide();
         $('#drawer_articles').hide();
     });
-//   $("#app_logo").click(function(e) {
-       
-// $('#drawer').addClass('active');
-//  e.stopPropagation();
-//     });
-//   $('body').click(function() {
- 
-//  if( $('#drawer').hasClass('active');) {
-//  $('#drawer').removeClass('active');
-//  e.stopPropagation();
-//  }  });
-  
+
 });
