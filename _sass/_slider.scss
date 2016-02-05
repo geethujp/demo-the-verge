@@ -1,0 +1,58 @@
+#scroll-wrap {
+    height: 200px;
+    width: 100%;
+    overflow-x: scroll;
+    white-space: nowrap;
+    font-size: 0;
+    overflow-y: hidden;
+}
+.scroll_item {
+    display: inline-block;
+    width: 85%;
+    height: 100%;
+    position: relative;
+}
+
+#box_s-1 {
+    background: url('../images/map.gif');
+    background-size: cover;
+    background-position: center;
+}
+
+#box_s-1::after {
+    background: linear-gradient(135deg, $violet, $blue);
+}
+
+#box_s-2 {
+    background: url('../images/cable.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#box_s-2::after {
+    background: linear-gradient(135deg, $green, $ochre);
+}
+
+#box_s-3 {
+    background: url('../images/doom.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#box_s-3::after {
+    background: linear-gradient(135deg, $orange, $violet);
+}
+
+#box_s-4 {
+    background: url('../images/caesar.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#box_s-4::after {
+    background: linear-gradient(135deg, $ochre, $orange);
+}
+.scroll_item .content_title
+{
+    font-size: 20px;
+}

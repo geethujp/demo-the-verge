@@ -15,11 +15,14 @@ $(document).ready(function() {
     $("#app_articles").click(function(e) {
       
         e.stopPropagation();
+    
         $('#drawer_articles').show();
     });
     $(document).click(function() {
         $('#drawer').hide();
         $('#drawer_articles').hide();
     });
+   
+  
 
 });

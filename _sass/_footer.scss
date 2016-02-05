@@ -1,0 +1,81 @@
+#textbox {
+    padding: 20px;
+}
+
+#textarea {
+    background: #FFF;
+    padding: 1rem;
+    width: 90%;
+    color: #444;
+    font-size: 15px;
+    text-align: center;
+    font-family: Adelle, Georgia, serif;
+}
+
+.footer_list {
+    float: left;
+    background-color: $black;
+    width: 50%;
+}
+
+.list_content {
+    padding: 10px 35px;
+}
+
+.footer_list ul {
+    list-style: none;
+    color: $white;
+    margin: 0;
+    padding: 0;
+}
+
+.footer_list li {
+    padding: 5px;
+}
+
+#list_wrapper {
+    height: 350px;
+}
+
+#social_media_contact {
+    padding: 10px;
+    color: $white;
+}
+
+#social_list {
+    list-style: none;
+}
+
+.social_icon {
+    background-color: $white;
+    color: $black;
+    display: inline;
+    padding: 5px;
+    margin-right: 10px;
+    font-size: 15px;
+    text-align: center
+}
+
+#vox_media {
+    margin: 0 auto;
+    width: 50%;
+    height: 50px;
+    background: url("../images/vox.png");
+    background-size: 100% 100%;
+}
+
+#footer_text {
+    color: $footer-color;
+}
+
+#footer_text p {
+    font-size: 12px;
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    padding-bottom: 10px;
+}
+
+#footer_text a {
+    color: $header-color;
+    text-decoration: none;
+}

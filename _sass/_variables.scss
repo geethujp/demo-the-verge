@@ -1,4 +1,3 @@
-$header-color: #fa4b2a;
 $white:#fff;
 $black:#000;
 $orange:#dc4225;
@@ -7,9 +6,20 @@ $green:#417711;
 $ochre:#D38312;
 $blue:#002f4b;
 $grey:#222;
+
 $light-grey:#2f2f2f;
-$border:#ddd;
+$lighter-grey:#ddd;
+$grey-80:#ccc;
 $medium-grey:#555;
-$light-grey:#2f2f2f;
-$light-grey:#2f2f2f;
-$footer-color:#ccc;
+$red-orange: #fa4b2a;
+
+$header-color:$red-orange;
+$border:$lighter-grey;
+$footer-color:$grey-80;
+
+$sans-serif:'Raleway',Arial, 'Helvetica Neue', Helvetica, sans-serif;
+$serif: Georgia, Times, 'Times New Roman', serif;
+
+
+
+

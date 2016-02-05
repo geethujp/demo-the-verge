@@ -1,0 +1,65 @@
+.body_content {
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.body_content::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    opacity: 0.7;
+}
+
+.body_text {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    color: $white;
+    z-index: 3;
+    padding: 20px;
+}
+
+.content_title {
+    text-align: left;
+    margin: 0;
+    font-family: Adelle;
+    line-height: 1.2em;
+    white-space: normal;
+}
+
+.content_author {
+    font-size: 12px
+}
+.first {
+    background: url('../images/dam.jpg');
+    background-size: 100% 100%;
+}
+
+.first::after {
+    background: linear-gradient(135deg, $orange, $violet);
+}
+
+.second {
+    background: url('../images/iphone.jpg');
+    background-size: 100% 100%;
+}
+
+.second::after {
+    background: linear-gradient(135deg, $blue, $green);
+}
+
+.last {
+    background: url('../images/people.jpg');
+    background-size: 100% 100%;
+}
+
+.last::after {
+    background: linear-gradient(135deg, $ochre, $blue);
+}
